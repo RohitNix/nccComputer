@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <p><span class="counter">1000</span></p>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/3.0.0/jquery.waypoints.min.js" integrity="sha512-f/gxy4xAjuGEIf/ujexcNI906CTS+kfw40QCyG/rEMKELvCIFaTOY+dfdn7M/eNsiMreG3SStjgFr9q8Me9Baw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js" integrity="sha512-d8F1J2kyiRowBB/8/pAWsqUl0wSEOkG5KATkVV4slfblq9VRQ6MyDZVxWl2tWd+mPhuCbpTB4M7uU/x9FlgQ9Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script>
+
+    var data = `{
+    "name":"ujjwal", 
+    "score": 11.75, 
+    "isAdmin": false,
+    "license": null,
+    "shopitem":["food","cloth","oil"],
+    "myObj":{
+        "name":"nested",
+        "marks":45
+    }
+}`;
+
+	var json = JSON.parse(data);
+			
+	alert(json["name"]); 
+	alert(json.name); //mkyong
+	
+	alert(json.address.streetAddress); //88 8nd Street
+	alert(json["address"].city); //New York
+			
+	alert(json.phoneNumber[0].number); //111 111-1111
+	alert(json.phoneNumber[1].type); //fax
+			
+	alert(json.phoneNumber.number); //undefined
+
+    </script>
+</body>
+</html>

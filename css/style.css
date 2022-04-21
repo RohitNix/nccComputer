@@ -1,0 +1,297 @@
+*{
+    margin: 0;
+    padding:0;
+    
+}
+.banner{
+
+    background:linear-gradient(to left, rgba(241, 0, 209, 0.274), rgba(152, 0, 240, 0.623));
+    height: 480px;
+    background-size: cover;
+    margin-top: 12px;
+}
+.bannerImg{
+     height: 470px;
+}
+.name{
+    font-size: 39px;
+    font-weight: 600;
+}
+.quoteImg{
+    height: 150px;
+}
+.quote{
+    font-size: 18px;
+    font-weight: 700;
+    font-style: italic;
+    color: rgb(0, 0, 0);
+}
+@media screen and (max-width: 651px) {
+    .bannerImg {
+        height: 551px;
+        width: 449px; 
+        padding-bottom: 20px;
+    }
+    .banner{
+        height: 560px;
+    }
+    .quote{
+        font-size: 25px;
+        
+    }
+}
+/* .offtitle{
+    font-weight: 800; 
+    font-size: 30px; 
+    color: #ba29bd;
+} */
+.offhead{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 66px;
+    color: #42495b;
+}
+.offtext{
+    font-size: 20px;
+   
+    font-family: 'Lato', sans-serif;
+    color: black;
+}
+/* .icon{
+    font-size: 88px;
+    color:#7107af;
+} */
+.icon{
+    width: 101px;
+    height:101px;
+}
+.offdatah{
+   font-size: 22px;
+}
+.offdatat{
+    font-size: 12px;
+    font-family: 'open Sans', sans-serif;
+    color: #42495b;
+}
+.data_1{
+    background:linear-gradient(to top, #963088, #c80a50);
+    
+    /* background-color: #963088; */
+}
+.data_2{
+    /* background:linear-gradient(to top, rgba(200,10,80,0), rgba(200, 10, 80, 1)); */
+    background:linear-gradient(to top, rgb(150, 48, 136,1), rgb(200, 10, 80,1));
+}
+.data_3{
+    /* background:linear-gradient(to top, rgba(153,0,241,0), rgba(153, 0, 241, 1)); */
+    background:linear-gradient(to top, rgb(150, 48, 136,1), rgb(200, 10, 80,1));
+}
+
+.courseName{
+    font-size: 30px;
+    color: white;
+}
+.courseData{
+    font-size: 14px;
+    color:white;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+.courseCont{
+    box-shadow: 0px 0px 0px 0px ;
+}
+.avatar{
+    height: 450px;
+   
+    margin-top: 50px;
+    background: linear-gradient(to right,rgba(9, 0, 10, 0.555), rgba(66, 3, 61, 0.1)),url("../images/avatar8.jpg") fixed;
+    background-size: cover; 
+    
+    color: rgba(255, 255, 255, 0.89);
+    font-size: 35px;
+    
+}
+.box{
+    /* height: 200px;
+    width: 200px; */
+    /* opacity: 1; */
+    border: 1px solid rgba(255, 255, 255, 0.205);
+    background: rgba(255, 255, 255, 0.062);
+    backdrop-filter: blur(1px);
+}
+
+
+
+@media screen and (max-width: 528px) {
+      .seprator{
+        width: 330px;
+      }
+    } 
+ 
+ .countData{
+    font-size: 12px;
+ } 
+ @media screen and (max-width:989px) and (min-width:768px){
+      .avatar{
+        height: 902px;
+      }   
+      .box{
+          margin-left: 10px;
+          margin-right:10px;
+      }
+ }
+@media screen and (max-width:768px){
+    .box{
+        margin-left: 35px;
+        margin-right: 37px;
+        padding-top: 27px;
+        margin-top:-17px;
+    }
+    .avatar{
+        height: 1500px;
+    }
+}
+.avatarBot{
+    background:linear-gradient(to left, rgba(241, 0, 209, 0.815), rgba(152, 0, 240, 0.596));
+    
+}
+.avatarBotData{
+    color: white;
+    font-size: 33px;
+    margin: 57px;
+} 
+.footer{
+    background: #262626; margin-top: 80px; 
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    font-family: 'Lato', sans-serif;
+}
+.footerTitle{
+    color:rgba(255, 255, 255, 0.788);
+    font-size: 30px;
+    margin: 46px;
+}
+.footerData{
+     color: #737274;
+     margin-left: 38px;
+     font-size: 14px;
+}
+.footerlTitle{
+    color: white;
+    margin: 58px;
+    font-size: 19px;
+    border-bottom: 2px solid rgb(193 11 179);
+    padding-bottom: 7px;
+    width: 136px;
+}
+.footerList{
+    font-size: 14px;
+    margin-left: 32px;
+    color: #737274;
+    border-bottom: 1px solid #737274;
+    padding-bottom: 7px;
+    padding-top: 7px;
+    transition: 200ms ease;
+    
+}
+.footerList:hover{
+    color: white;
+
+    font-size: 16px;
+}
+.footerContact{
+    color: #737274;
+    margin: 0;
+    padding: 19px;
+    padding-left: 65px;
+}
+.footerContactData{
+    font-size: 14px;
+    margin-left: 13px;
+}
+.copyright{
+  
+    background-color: #121111f0;
+    height: 50px;
+    border-top: 2px solid rgb(193 11 179);
+    color: white;
+}
+.copyrightData {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-size: 14px;
+}
+.about{
+    height: 387px;
+   
+    margin-top: 30px;
+    margin-bottom: 50px;
+    background: linear-gradient(to left,#f7f7f7f6, rgba(72, 35, 73, 0.774)),url("../images/clgAvatar3.jpg");
+    background-size:cover ;
+}
+.aboutAvatar{
+  
+
+} 
+.aboutTitle{
+    
+    font-size: 31px;
+    color: #c11873;
+
+}
+.aboutTag{
+    font-size: 23px;
+}
+@media screen and (max-width : 768px){
+    
+        .abt{
+            display: none;
+        }
+        .aboutTitle{
+            text-align: center;
+
+        }
+        .aboutTag{
+            text-align: center;
+        }
+        .aboutData{
+            text-align: center;
+        }
+}
+.topicHead{
+    font-size: 46px;
+    font-family: 'lato', sans-serif;
+    margin-top: 90px;
+}
+.teachAvatar{
+    height: 127px;
+    border-radius: 82px;
+    border: 2px solid #c11873;
+    margin: 13px;
+}
+.teachName{
+    font-size: 24px;
+}
+.teachDesig{
+    font-size: 20px;
+}
+.teachDet{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+}
+.seprator{
+    width: 480px;
+}
+
+.staff:hover{
+    box-shadow: #963088;
+    
+}
+
+  
+
+@media screen and (max-width:411px){
+     .seprator{
+         width: 200px;
+     }
+}
